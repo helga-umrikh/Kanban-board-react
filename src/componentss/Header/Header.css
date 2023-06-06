@@ -1,0 +1,26 @@
+.header {
+  background-color: #0067a3;
+  width: 100%;
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+  flex-shrink: 0;
+  padding: 0;
+}
+.logo {
+  color: white;
+  font-size: 28px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .header {
+    background-color: #0079bf;
+    justify-content: flex-end;
+  }
+}
